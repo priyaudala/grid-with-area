@@ -1,0 +1,100 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: " header header header"
+        "aside section section"
+        "aside article1 article2"
+        "aside article3 article4"
+        "footer footer footer";
+    height: 100vh;
+    width: 100vw;
+}
+
+.grid1 {
+    background-color: rgb(11, 120, 137);
+    grid-area: header;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grid2 {
+    background-color: rgb(96, 86, 94);
+    grid-area: aside;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grid3 {
+    background-color: rgb(43, 255, 0);
+    grid-area: section;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grid4 {
+    background-color: rgb(46, 2, 88);
+    grid-area: article1;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grid5 {
+    background-color: rgb(112, 112, 8);
+    grid-area: article2;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grid6 {
+    background-color: rgb(21, 88, 76);
+    grid-area: article3;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grid7 {
+    background-color: purple;
+    grid-area: article4;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grid8 {
+    background-color: rgb(246, 71, 7);
+    grid-area: footer;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
